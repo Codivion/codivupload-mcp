@@ -17,7 +17,7 @@ Add to your `claude_desktop_config.json`:
       "command": "npx",
       "args": ["-y", "codivupload-mcp"],
       "env": {
-        "CODIVUPLOAD_API_KEY": "cdv_live_your_api_key"
+        "CODIVUPLOAD_API_KEY": "cdv_your_api_key"
       }
     }
   }
@@ -29,7 +29,7 @@ Add to your `claude_desktop_config.json`:
 ```bash
 claude mcp add codivupload \
   --command "npx -y codivupload-mcp" \
-  --env CODIVUPLOAD_API_KEY=cdv_live_your_api_key
+  --env CODIVUPLOAD_API_KEY=cdv_your_api_key
 ```
 
 ### Cursor
@@ -40,7 +40,7 @@ Add to your MCP settings in Cursor → Settings → MCP Servers.
 
 1. Sign up at [app.codivupload.com](https://app.codivupload.com)
 2. Go to **Dashboard → Settings → API Keys**
-3. Create a new key — it starts with `cdv_live_`
+3. Create a new key — it starts with `cdv_`
 
 Free plan includes 10 posts/month. Upgrade for unlimited.
 
@@ -78,7 +78,7 @@ Using tool: schedule_post
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `CODIVUPLOAD_API_KEY` | Yes | Your CodivUpload API key (`cdv_live_...`) |
+| `CODIVUPLOAD_API_KEY` | Yes | Your CodivUpload API key (`cdv_...`) |
 | `CODIVUPLOAD_API_BASE_URL` | No | API base URL (default: `https://api.codivupload.com`) |
 
 ## Links

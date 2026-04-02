@@ -1,6 +1,6 @@
 {
   "name": "codivupload-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for CodivUpload — publish, schedule, and manage social media posts across 9 platforms via AI agents (Claude, Cursor, etc.)",
   "keywords": [
     "mcp",
