@@ -2,7 +2,7 @@
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "@modelcontextprotocol/sdk/deps.js";
+import { z } from "zod";
 
 const API_BASE = process.env.CODIVUPLOAD_API_BASE_URL || "https://api.codivupload.com";
 const API_KEY = process.env.CODIVUPLOAD_API_KEY;
