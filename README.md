@@ -4,6 +4,17 @@ MCP server for [CodivUpload](https://codivupload.com) — publish, schedule, and
 
 Works with Claude Desktop, Claude Code, Cursor, and any MCP-compatible client.
 
+## Get an API key
+
+You need a CodivUpload API key (`cdv_...`) for this MCP server. Two paths:
+
+- **7-day free trial** — start at [app.codivupload.com/en/dashboard/subscription?trial=1](https://app.codivupload.com/en/dashboard/subscription?trial=1). `$0.00` due today, card collected for auto-renewal after 7 days. Cancel anytime during the trial in the Stripe Customer Portal — no charge. **API key is unlocked immediately during the trial.** One trial per customer lifetime.
+- **Direct subscribe** — Starter starts at $20/mo (or $200/yr — 2 months free). API access included from Starter and above. Pricing: [codivupload.com/pricing](https://codivupload.com/pricing).
+
+The Free plan ($0, no credit card) is dashboard-only and **does not include API access** — this MCP server cannot run on Free.
+
+After signup → Dashboard → Profiles → New profile → Connect a social account → Settings → API Keys → Generate key → copy `cdv_...` value into the config below.
+
 ## Setup
 
 ### Claude Desktop
